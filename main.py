@@ -19,6 +19,7 @@ while True:
                 print('Proibida a entrada')
             else:
                 print('Bom Filme')
+                break
         case 2:
             print(f'Filme escolhido por {nome}: Vivendo a Vida Adoidado.')
             if idade < 16:
@@ -45,15 +46,4 @@ while True:
                 print('Bom Filme')
         case _:
             print('Filme inexistente.')
-
-
-    continuar = input('Escolha outro filme ')
-     
-
-    if continuar == 's':
-        continue
-    elif continuar == 'n':
-        break
-    else:
-        print('Opção inválida')
-
+            
